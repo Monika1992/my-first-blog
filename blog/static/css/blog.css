@@ -52,3 +52,16 @@
     color: #FCA205;
     font-weight: bold;
 }
+
+.add-new {
+    float: right;
+    margin-top: 30px;
+    margin-right: 1150px;
+    color: #000;
+}
+
+#submit {
+    margin-left: 20%;
+    margin-bottom: 2%;
+}
+
