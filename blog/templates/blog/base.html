@@ -13,7 +13,9 @@
         <div class="header">
             <div class="add-new">
                 {% if user.is_authenticated %}
-                    <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+                    <a href="{% url 'post_new' %}" class="top-menu">
+                        <span class="glyphicon glyphicon-plus"></span>
+                    </a>
                 {% endif %}
             </div>
             <h1><a href="/">Django Girls Blog</a></h1>
@@ -25,7 +27,7 @@
             </div>
         </div>
         <div class="footer">
-            <p>Monika Bláhová </p>
+            <p>Monika Bláhová Django (Version 1.5) [Computer Software]. (2013). Retrieved from https://djangoproject.com.</p>
         </div>
     </body>
 </html>
